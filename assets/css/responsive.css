@@ -1,14 +1,14 @@
 @media (max-width: 1024px) {
-    .explore .section-heading h3:after {
+    .explore .section- headi ng h3:after {
         width: 65%;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991p x) {
     .section-padding {
         padding: 60px 0;
     }
-    .header .navbar-brand {
+    .header .navbar-bra nd {
         position: relative;
         top: 0;
     }
@@ -17,10 +17,10 @@
         border: none;
         padding-right: 0;
     }
-    .header .navbar .navbar-nav {
-        background: var(--light-color);
+    .header .navbar .na v bar-nav {
+        background: var(--ligh t -color);
         border-radius: 5px;
-        padding: 10px 0px;
+        padding: 10px 0 px;
     }
     .header .navbar-collapse {
         position: fixed;
@@ -28,13 +28,13 @@
         width: 100%;
         height: 100%;
         padding: 12px 15px 100vh;
-        background: var(--light-color);
+        background: var(--light-colo r);
     }
-    .header .navbar-collapse.collapsing {
+    .header .navbar-collapse.colla p sing {
         height: auto;
         -webkit-transition: left 0.3s ease;
-        -o-transition: left 0.3s ease;
-        -moz-transition: left 0.3s ease;
+        -o-transition: left 0.3s eas e;
+        -moz-transition: left 0 .3s ease;
         transition: left 0.3s ease;
         left: -100%;
     }

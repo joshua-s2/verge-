@@ -406,10 +406,11 @@ h6 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .header .topbar .topbar-nav .topbar-link li:not(:first-child) {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
 .header .topbar .topbar-nav .topbar-link li a {
@@ -976,7 +977,7 @@ h6 {
     color: var(--dark-color);
     border: 1px solid var(--dark-color);
     background: #FFE8CC;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .explore .holders-content {
@@ -1161,6 +1162,10 @@ h6 {
 .explore .explore-content span {
     font-weight: 600;
     margin-top: 0.75rem;
+}
+
+.explore-content:hover {
+    transform: scale(1.1);
 }
 
 
