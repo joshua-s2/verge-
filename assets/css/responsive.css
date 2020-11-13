@@ -222,6 +222,12 @@
 }
 
 @media (max-width: 768px) {
+    .header .navbar .navbar-nav .nav-item .nav-link:hover {
+        border-bottom: none;
+    }
+    .header .navbar-brand {
+        margin-left: -28px;
+    }
     .section-padding {
         padding: 70px 0;
     }
